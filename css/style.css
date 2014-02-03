@@ -131,8 +131,6 @@ textarea {
 }
 
 .subnavbar .container > ul {
-	display: inline-block;
-
 	height: 80px;
 	padding: 0;
 	margin: 0;
@@ -1281,4 +1279,24 @@ width: 11px;}
 		width: 200px;
 	}
 
+}
+
+
+li.pull-right {
+	border: none!important;
+	float: right!important;
+	border-bottom:3px solid #00A4BA!important;
+}
+li.pull-right a{
+	color: #383838!important;
+}
+
+.disabled{
+	 -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=3);
+  opacity: 0.3;
+  background-image: none;
+  cursor: default;
 }

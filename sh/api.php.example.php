@@ -1,0 +1,5 @@
+<?php
+  $clientApi = '';
+  $apiKey = '';
+  $dropletId = '';
+?>
